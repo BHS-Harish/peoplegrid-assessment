@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.noto-sans {
+    font-family: "Noto Sans Thai Looped", sans-serif !important; 
+    font-style: normal;
+  }
+input::placeholder,textarea::placeholder{
+  color: #15803d !important;
+}
+.ant-rate-star,.ant-rate-star-zero svg,.anticon-star svg{
+  fill: #15803d !important;
+}
+
+.ant-rate-star,.ant-rate-star-full svg{
+  fill:#a3e635 !important;
+}
+
+.ant-checkbox-wrapper{
+  margin-top: 3px;
+  font-size: 16px;
+  padding: 0px 6px;
+}
+.ant-select-arrow svg{
+  fill: #15803d !important;
+}
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}

@@ -1,8 +1,9 @@
-# React + Vite
+# Peoplegrid assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I developed a review application for Mobile phone review.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Firebase database was used for database.
+- Responsive for all devices
+- Form data were validated
+- Data visualization - Chartjs - Line Graph, Bar chart and Pie chart.
+- Filter option based on date.

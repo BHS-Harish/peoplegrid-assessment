@@ -26,7 +26,7 @@ function Dashboard() {
     useEffect(() => {
         if (filter == "Past 24 hours") {
             console.log("24")
-            setFilteredData(reviews?.filter((review) => review?.createdAt > (Date.now() - (2 * 60 * 60 * 1000))))
+            setFilteredData(reviews?.filter((review) => review?.createdAt > (Date.now() - (24 * 60 * 60 * 1000))))
         } else if (filter == "Past Week") {
             setFilteredData(reviews?.filter((review) => review?.createdAt > (Date.now() - (7 * 24 * 60 * 60 * 1000))))
         } else if (filter == "Past month") {
